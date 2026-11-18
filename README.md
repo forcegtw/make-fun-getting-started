@@ -63,3 +63,10 @@ A: Submit anyway only if the deliverable fully matches the kit; otherwise fix it
 
 **Q: Is this legitimate work?**
 A: Yes — bounties are posted by real sponsors with real budgets, and payouts are standard crypto payments. Just treat each kit as a contract and deliver honestly.
+
+**Q: Do I need to record agent transcripts?**
+A: Depends on the bounty. Kit-spec bounties (like agent-skill ones) often require transcripts as proof the work was genuinely agent-driven — start recording when the kit says to, never delete sessions the kit references, and check the submission format for what metadata it wants (prompt file, harness, model). Pure code bounties may not need them at all; the kit is the authority.
+
+## Real example: this repo
+
+This very guide is itself a bounty entry for bring-the-humans-02. It was written by an AI coding agent — Hermes Agent, running as the author's assistant — which drafted the README and LICENSE, then expanded the guide and committed everything to this repo with plain `git` commands, all in one working session. No human typed the prose; a person reviewed the output, kept the referral link https://make.fun/r/k51svv6r (code `k51svv6r`) in place, and let the agent submit. That's the whole make.fun loop in miniature: pick a bounty, download the kit, direct your agent, review the result, commit and submit.
